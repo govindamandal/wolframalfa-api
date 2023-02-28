@@ -1,0 +1,26 @@
+{
+  "name": "wolframalfa-api",
+  "version": "1.0.0",
+  "description": "API for Mathematical Processes https://www.wolframalpha.com/",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/govindamandal/wolframalfa-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/govindamandal/wolframalfa-api/issues"
+  },
+  "homepage": "https://github.com/govindamandal/wolframalfa-api#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^2.0.20",
+    "wolfram-alpha-node": "^0.0.3"
+  }
+}
